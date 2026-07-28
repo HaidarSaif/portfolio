@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamad Haidar | Electrical Engineer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="bg-dark text-light">
+    <div id="loader" class="loader-wrapper">
+        <div class="circuit-loader">
+            <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 30,50 L 40,30 L 60,70 L 70,50 L 90,50" class="path"></path>
+            </svg>
+            <span>INITIALIZING SYSTEM...</span>
+        </div>
+    </div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#hero" class="logo"><span class="logo-accent">H</span>aidar.</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Profile</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <!-- Language Switch for Mobile -->
+                <li class="mobile-lang">
+                    <a href="index.html" class="active">EN</a> | <a href="id.html">ID</a>
+                </li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switch desktop-lang"><a href="index.html" class="active">EN</a> <span
+                        class="divider">/</span> <a href="id.html">ID</a></div>
+                <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+        <div class="scroll-progress"></div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="circuit-bg"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <p class="greeting">Welcome, I am</p>
+            <h1 class="glitch-title" data-text="MOHAMAD HAIDAR">MOHAMAD HAIDAR</h1>
+            <h2 class="glitch-subtitle">SYAIFULLAH RAHMAN</h2>
+            <div class="typewriter-container"><span class="typed-text"></span></div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary glow-effect"><i class="fas fa-project-diagram"></i> View
+                    Projects</a>
+                <a href="assets/pdf/CV.pdf" class="btn btn-outline" download><i class="fas fa-download"></i> Download
+                    CV</a>
+            </div>
+            <div class="social-links-hero">
+                <!-- Link ke LinkedIn -->
+                <a href="https://www.linkedin.com/in/haidarsaif" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Link ke GitHub -->
+                <a href="https://github.com/HaidarSaif" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <!-- Link ke Email (Buka Gmail Web) -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mhaidar681@gmail.com" target="_blank"
+                    class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div><span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- Sections 1-4 -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <h2><span class="text-gradient">01.</span> About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <p class="lead">Electrical Engineering graduate specializing in <strong>Embedded Systems, Internet
+                            of Things (IoT), Renewable Energy, UAV Systems, and Electrical Control Systems.</strong></p>
+                    <p>I have practical experience in designing microcontroller-based control systems, integrating
+                        wireless sensor networks, and modeling renewable energy systems. I am accustomed to solving
+                        technical problems analytically and am ready to contribute to technological engineering projects
+                        and industrial research.</p>
+                    <div class="stats-container mt-4">
+                        <div class="stat-item">
+                            <h3 class="static-number">3.87</h3>
+                            <p>GPA / IPK</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="11">0</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="2">0</h3>
+                            <p>National Awards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left" data-aos-delay="200">
+                    <div class="tech-sphere">
+                        <div class="circle c1"></div>
+                        <div class="circle c2"></div>
+                        <div class="circle c3"></div>
+                        <img src="assets/images/profile.jpg" alt="Foto Profil Mohamad Haidar" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2><span class="text-gradient">02.</span> My Journey</h2>
+                <p>The path of continuous learning and engineering.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-float">
+                        <div class="date">2022 – 2026</div>
+                        <h3>Universitas Negeri Yogyakarta</h3>
+                        <h4>Bachelor of Electrical Engineering</h4>
+                        <p>Focusing on Embedded Systems, IoT, and Renewable Energy. Graduated with a GPA of 3.87.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-float">
+                        <div class="date">Oct 2024 – Nov 2024</div>
+                        <h3>Project Engineer PLTS</h3>
+                        <h4>PT Permada Nusantara Hijau</h4>
+                        <p>Fully managed an off-grid Solar PV project to power irrigation systems for a reforestation
+                            program at Mount Arjuno-Welirang.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-float">
+                        <div class="date">Sep 2025 – Nov 2025</div>
+                        <h3>Electrical Technician</h3>
+                        <h4>PT Lentera Bumi Nusantara</h4>
+                        <p>Designed and modeled PMSG using FEM MagNet and analyzed wind energy potential data for
+                            national research.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <h2><span class="text-gradient">03.</span> Core Competencies</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="50"><i class="fas fa-bolt"></i>
+                    <h3>Electrical Engineering</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="100"><i
+                        class="fas fa-microchip"></i>
+                    <h3>Embedded Systems</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="150"><i class="fas fa-wifi"></i>
+                    <h3>Internet of Things</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="200"><i
+                        class="fas fa-solar-panel"></i>
+                    <h3>Solar PV & Power</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 92%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="250"><i class="fab fa-python"></i>
+                    <h3>Python & C/C++</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="300"><i class="fas fa-memory"></i>
+                    <h3>ESP32 & Raspberry Pi</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="350"><i
+                        class="fas fa-network-wired"></i>
+                    <h3>PCB Design</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="400"><i class="fas fa-magnet"></i>
+                    <h3>FEM MagNet</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2><span class="text-gradient">04.</span> Professional Experience</h2>
+            </div>
+            <div class="exp-container">
+                <div class="exp-card glass-card hover-glow" data-aos="fade-right">
+                    <div class="exp-header">
+                        <div class="exp-icon"><i class="fas fa-solar-panel"></i></div>
+                        <div>
+                            <h3>PT Permada Nusantara Hijau</h3>
+                            <h4>Project Engineer PLTS</h4>
+                        </div>
+                    </div>
+                    <ul class="exp-tags">
+                        <li>Off-grid Solar PV</li>
+                        <li>Load Analysis</li>
+                        <li>Budgeting</li>
+                        <li>Procurement</li>
+                        <li>Commissioning</li>
+                    </ul>
+                    <p class="mt-3 text-sm">Successfully assembled control panels and completed the installation and
+                        commissioning of an off-grid Solar PV system in the extreme environment of Pos 2 Mount
+                        Arjuno-Welirang, supporting a critical land reforestation program.</p>
+                </div>
+                <div class="exp-card glass-card hover-glow" data-aos="fade-left">
+                    <div class="exp-header">
+                        <div class="exp-icon"><i class="fas fa-wind"></i></div>
+                        <div>
+                            <h3>PT Lentera Bumi Nusantara</h3>
+                            <h4>Electrical Technician</h4>
+                        </div>
+                    </div>
+                    <ul class="exp-tags">
+                        <li>PMSG Modeling</li>
+                        <li>FEM MagNet</li>
+                        <li>Wind Energy Analysis</li>
+                        <li>Generator Maintenance</li>
+                    </ul>
+                    <p class="mt-3 text-sm">Responsible for designing and modeling Permanent Magnet Synchronous
+                        Generators (PMSG). Maintained permanent magnet generator units to ensure operational reliability
+                        and analyzed wind energy potential data for national research databases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: PROJECTS -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <h2><span class="text-gradient">05.</span> Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="iot">IoT & Embedded</button>
+                <button class="filter-btn" data-filter="energy">Renewable Energy</button>
+                <button class="filter-btn" data-filter="uav">UAV Systems</button>
+                <button class="filter-btn" data-filter="web">Web & Software</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- 1. AgriMesh -->
+                <div class="project-card glass-card" data-category="iot energy" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/agrimesh.jpg" alt="AgriMesh Project" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>AgriMesh</h3>
+                        <p>Real-time land condition & soil fertility monitoring. Features remote app control,
+                            auto-watering, and a wireless mesh-network powered by mini solar panels.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>C++</span><span>Mesh Network</span><span>Mini
+                                PLTS</span><span>Web</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/agrimesh" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Crack Vision -->
+                <div class="project-card glass-card" data-category="iot" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/crackvision.jpg" alt="Crack Vision Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>CrackVision</h3>
+                        <p>Samsung Innovation Campus project for road safety. Uses a camera to detect potholes, mapping
+                            coordinates via GPS to warn drivers and alert the government.</p>
+                        <div class="tech-stack"><span>ESP32-CAM</span><span>C++</span><span>GPS</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/crackvision" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. ESC -->
+                <div class="project-card glass-card" data-category="iot" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/esc.jpg" alt="Effortless Speed Controller Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Effortless Speed Controller</h3>
+                        <p>Camera-based hand gesture recognition system to seamlessly turn on/off and adjust the speed
+                            of room fans and AC units.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>Raspberry
+                                Pi</span><span>OpenCV</span><span>Python</span><span>ESP-NOW</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/effortless-speed-controller" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. EWS Landslide -->
+                <div class="project-card glass-card" data-category="iot energy" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/ews-landslide.jpg" alt="EWS Landslide Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>EWS Landslide</h3>
+                        <p>UNY research project. Early warning system using gyro-accelero and soil moisture sensors,
+                            processed via fuzzy logic. Solar-powered with GPS and web dashboard.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>Fuzzy Logic</span><span>Mesh
+                                Network</span><span>Mini PLTS</span><span>GPS</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/ews-landslide" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. GCS Antenna Tracker -->
+                <div class="project-card glass-card" data-category="uav" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/gcs-tracker.jpg" alt="GCS Antenna Tracker Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>GCS Antenna Tracker</h3>
+                        <p>KRTI Technology Development. Tracks flying UAVs using GPS azimuth data to focus
+                            omnidirectional antennas. Acts as the data link to Ground Control Station.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>C++</span><span>GPS</span><span>UAV
+                                Telemetry</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/gcs-antenna-tracker" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. KWT Mawar -->
+                <div class="project-card glass-card" data-category="iot energy" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/kwt-mawar.jpg" alt="Chili Irrigation Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Chili Irrigation</h3>
+                        <p>Auto-watering system using ESP-NOW moisture sensors and mist sprinklers. Powered directly by
+                            off-grid PLTS. Monitored remotely via Firebase and a mobile app.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>ESP-NOW</span><span>Firebase</span><span>Mini
+                                PLTS</span><span>MIT App Inventor</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/smart-chili-irrigation" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Monitoring Suhu CNC -->
+                <div class="project-card glass-card" data-category="iot" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/cnc-monitor.jpg" alt="CNC Temp Monitor Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>CNC Laser Temp Monitor</h3>
+                        <p>Crucial real-time temperature monitoring system for CNC laser machines, reporting data
+                            directly to machine operators through a web interface.</p>
+                        <div class="tech-stack"><span>ESP32</span><span>C++</span><span>HTML/JS/CSS</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/monitoring-suhu-cnc" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. PLTS Arjuna Welirang -->
+                <div class="project-card glass-card" data-category="energy" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/plts-arjuna.jpg" alt="PLTS Arjuna Welirang Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>PLTS Arjuna Welirang</h3>
+                        <p>Off-grid Solar PV installation providing electricity for the critical former sulfur mine
+                            reforestation program at Pos 2 Mount Arjuna Welirang.</p>
+                        <div class="tech-stack"><span>PLTS</span><span>Off-Grid</span><span>Commissioning</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/plts-arjuna-welirang" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Smart Scarecrow -->
+                <div class="project-card glass-card" data-category="iot energy" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/smart-scarecrow.jpg" alt="Smart Scarecrow Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Scarecrow</h3>
+                        <p>PKM-KC Grant. IoT agricultural optimizer combining YOLOv5 bird detection, ultrasonic pest
+                            repellers, auto-watering, and auto-pH balancing (Dolomite). Solar-powered with mobile app.
+                        </p>
+                        <div class="tech-stack"><span>ESP32</span><span>Raspberry
+                                Pi</span><span>YOLOv5</span><span>Solar Cell</span><span>MIT App Inventor</span></div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/smart-scarecrow" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. SiPeD -->
+                <div class="project-card glass-card" data-category="web" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/siped.jpg" alt="SiPeD Project" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>SiPeD (Fund Recording System)</h3>
+                        <p>A private financial tracking application with a dynamic interface (Optimistic UI). Uses
+                            Google Sheets as a serverless backend database via Apps Script. Features WhatsApp OTP
+                            authentication, theme customization, and PDF export.</p>
+                        <div class="tech-stack">
+                            <span>Tailwind CSS</span>
+                            <span>Vanilla JS</span>
+                            <span>Apps Script</span>
+                            <span>Google Sheets API</span>
+                            <span>Optimistic UI</span>
+                        </div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/siped" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. Premium Personal Portfolio -->
+                <div class="project-card glass-card" data-category="web" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/images/projects/portfolio.jpg" alt="Personal Portfolio Project"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Premium Personal Portfolio</h3>
+                        <p>Interactive portfolio website featuring a modern design (Glassmorphism & Dark Theme), smooth
+                            scroll animations, custom particle effects, and bilingual support (ID/EN). Fully responsive.
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML/CSS</span>
+                            <span>Vanilla JS</span>
+                            <span>AOS Animation</span>
+                            <span>Particles.js</span>
+                            <span>Glassmorphism</span>
+                        </div>
+                        <div class="project-link-btn">
+                            <a href="https://github.com/HaidarSaif/portfolio" target="_blank"
+                                class="btn btn-outline w-100 text-center glow-effect"><i class="fab fa-github"></i> View
+                                on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sections 6+ -->
+    <section id="certifications" class="section-padding bg-darker">
+        <div class="container">
+            <div class="row-flex">
+                <div class="col-half" data-aos="fade-right">
+                    <div class="section-header">
+                        <h2><i class="fas fa-certificate text-gradient"></i> Certifications</h2>
+                    </div>
+                    <ul class="cert-list">
+                        <li class="glass-card"
+                            onclick="window.open('https://drive.google.com/file/d/1XA2clShAlQos7X8imShr39fIjFhX4s4o/view?usp=sharing', '_blank')"
+                            style="cursor: pointer;">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-info">
+                                <h4>BNSP CPro (Programmer)</h4>
+                                <p>LSP Informatika • 2025 - 2028</p>
+                            </div>
+                        </li>
+                        <li class="glass-card"
+                            onclick="window.open('https://drive.google.com/drive/folders/17EAStvUJnK6xu4ergs-1miA9i9UCRUX5?usp=sharing', '_blank')"
+                            style="cursor: pointer;">
+                            <div class="cert-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="cert-info">
+                                <h4>Samsung Innovation Campus</h4>
+                                <p>Hacktiv8 Indonesia • 2025</p>
+                            </div>
+                        </li>
+                        <li class="glass-card"
+                            onclick="window.open('https://drive.google.com/file/d/1rpF_AK587HKgzLQSw3STN8ZWp6M518WQ/view?usp=sharing', '_blank')"
+                            style="cursor: pointer;">
+                            <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="cert-info">
+                                <h4>Web Programming</h4>
+                                <p>Akprind Tekno Utama • 2025</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-half" data-aos="fade-left">
+                    <div class="section-header">
+                        <h2><i class="fas fa-trophy text-gradient"></i> Achievements</h2>
+                    </div>
+                    <div class="achievement-card glass-card mb-4"
+                        onclick="window.open('https://drive.google.com/file/d/1r3awhVIyhP7_lbxJh5OYeb_YEcC-80H0/view?usp=sharing', '_blank')"
+                        style="cursor: pointer;">
+                        <div class="achieve-badge">🏆</div>
+                        <h3>Runner-Up National KRTI</h3>
+                        <p>Technology Development Division at the Indonesian Flying Robot Contest 2024.</p>
+                    </div>
+                    <div class="achievement-card glass-card"
+                        onclick="window.open('https://drive.google.com/file/d/1TEBPlgrvKThaJ4Ema9kFmlrdMT-Cp2OY/view?usp=sharing', '_blank')"
+                        style="cursor: pointer;">
+                        <div class="achieve-badge">🏆</div>
+                        <h3>National PKM-KC Funding</h3>
+                        <p>Student Creativity Program 2024 for "Smart Scarecrow IoT" innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="zoom-in">
+                <h2><span class="text-gradient">06.</span> Get In Touch</h2>
+                <p>Ready to engineer the future together.</p>
+            </div>
+            <div class="contact-wrapper glass-card" data-aos="fade-up">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations, projects, or professional opportunities.</p>
+                    <div class="info-items">
+                        <div class="info-item"><i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mhaidar681@gmail.com"
+                                    target="_blank">mhaidar681@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item"><i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4><a href="https://wa.me/6281554989874">+62 815 5498 9874</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Jl. Jelambar Utara, Jelambar Baru, Kec. Grogol Petamburan, West Jakarta City, DKI
+                                    Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/mhaidar681@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="input-group">
+                            <input type="text" name="Name" required>
+                            <label>Your Name</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="Email" required>
+                            <label>Your Email</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="Message" required rows="4"></textarea>
+                            <label>Your Message</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 glow-effect">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Mohamad Haidar Syaifullah Rahman. All rights reserved.</p>
+            <p class="text-sm">Designed for Engineering Excellence.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/particles-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
